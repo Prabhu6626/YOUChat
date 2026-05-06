@@ -1,0 +1,28 @@
+# Global Ignore
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Root Build Artifacts
+*.apk
+YOUChat*.apk
+YOUChat_Ngrok.apk
+
+# Node and Env
+node_modules/
+.env
+.env.*
+
+# Local/Private Keys
+firebase-service-account.json
+google-services.json
+server/firebase-service-account.json
+server/firebase-service-account.json
