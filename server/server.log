@@ -1,0 +1,106 @@
+
+> youchat-server@1.0.0 dev
+> NODE_ENV=development nodemon src/index.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+(node:8768) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8768) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:8768) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+[INFO] 2026-04-09T06:11:44.135Z MongoDB connected: localhost:27018
+[INFO] 2026-04-09T06:11:44.136Z WebSocket server initialized
+[INFO] 2026-04-09T06:11:44.136Z YOUChat server running on port 3000
+[INFO] 2026-04-09T06:11:44.137Z WebSocket server running on ws://localhost:3000
+[INFO] 2026-04-09T06:11:44.137Z Environment: development
+[ERROR] 2026-04-09T06:12:55.264Z Unhandled error: Only JPEG, PNG, and WebP images are allowed.
+[ERROR] 2026-04-09T06:13:16.156Z Unhandled error: Only JPEG, PNG, and WebP images are allowed.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+(node:8967) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[INFO] 2026-04-09T06:14:15.603Z MongoDB connected: localhost:27018
+[INFO] 2026-04-09T06:14:15.605Z WebSocket server initialized
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at start (/Users/nandhini/Documents/Prabhu/YOUChat/server/src/index.js:63:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:507:28)
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v24.4.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+[INFO] 2026-04-09T06:14:17.321Z MongoDB connected: localhost:27018
+[INFO] 2026-04-09T06:14:17.322Z WebSocket server initialized
+[INFO] 2026-04-09T06:14:17.322Z YOUChat server running on port 3000
+[INFO] 2026-04-09T06:14:17.323Z WebSocket server running on ws://localhost:3000
+[INFO] 2026-04-09T06:14:17.323Z Environment: development
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+[INFO] 2026-04-09T06:21:24.259Z MongoDB connected: localhost:27018
+[INFO] 2026-04-09T06:21:24.260Z WebSocket server initialized
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at start (/Users/nandhini/Documents/Prabhu/YOUChat/server/src/index.js:63:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:507:28)
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v24.4.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+[INFO] 2026-04-09T06:33:31.727Z MongoDB connected: localhost:27018
+[INFO] 2026-04-09T06:33:31.732Z WebSocket server initialized
+[INFO] 2026-04-09T06:33:31.732Z YOUChat server running on port 3000
+[INFO] 2026-04-09T06:33:31.732Z WebSocket server running on ws://localhost:3000
+[INFO] 2026-04-09T06:33:31.732Z Environment: development
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
